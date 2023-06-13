@@ -4,36 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Jacob Rivera</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
   </head>
 
  <body>
-    <div class="hero">
-        <div class="header">
-            <div class="header-logo">
-                Header Logo
-            </div>
-            <div class="hero-second-text">
-                <ul class="list">
-                    <li><a href="index.html">header link one</a></li>
-                    <li><a href="index.html">header link two</a></li>
-                    <li><a href="index.html">header link three</a></li>
-                </ul>
-            </div>
+    <div class="header">
+        <div class="header-left">
+            Jacob Rivera
+        </div>
+        <div class="header-right">
+
+            <button onclick="openNav()">
+                <img src="./images/icons/three-horizontal-lines-icon.svg" alt="Menu icon" id="menu-icon" />
+            </button>
+            <!-- <img src="./images/icons/icons8-menu-rounded-ios-16-filled-96.png" alt="Menu icon" id="menu-icon"> -->
+
+            <!-- <ul class="list">
+                <li><a href="index.html">header link one</a></li>
+                <li><a href="index.html">header link two</a></li>
+                <li><a href="index.html">header link three</a></li>
+            </ul> -->
+        </div>
+
+    </div>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    
+
+
+    <div class="intro" id="name">
+        <div class="intro-left">
+            <h1>Hi, I'm Jacob!</h1>
+            <h3>and thanks for visiting! Here you will find all about me! I have a little about myself down below, but you can find my resume, personal projects, and other stuff at the top of the page! </h3>
+        </div>
+
+        <div class = "intro-right">
+            <img src="./images/jacob1.png" alt="A picture of Jacob Rivera" id="selfie">
 
 
         </div>
-    </div>
 
-
-    <div class="intro">
-        <h1>Jacob Rivera</h1>
 
     </div>
 
     <div class="about_me">
-
+        <h1>a little about me</h1>
+        <div class = "education">
+            <h2>Education</h2>
+            <h3>University of Texas at Austin</h3>
+            <ul class="edu-list">
+                <li>Masters of Computer Science - Estimated Graduation 2024</li>
+                <li>Bachelor's of Science in Physics - 2017</li>
+            </ul>
+        </div>
 
     </div>
 
