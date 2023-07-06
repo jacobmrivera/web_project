@@ -7,6 +7,9 @@
     <title>Jacob Rivera</title>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap" rel="stylesheet">
   </head>
 
  <body>
@@ -16,8 +19,19 @@
         </div>
         <div class="header-right">
 
-            <button onclick="openNav()">
-                <img src="./images/icons/three-horizontal-lines-icon.svg" alt="Menu icon" id="menu-icon" />
+            <button id="menu-button" onclick="openNav()">
+                <!-- <img src="./images/icons/three-horizontal-lines-icon.svg" alt="Menu icon" id="menu-icon" /> -->
+                <!-- <div id="menu-button">
+                    <div class="menu-block">
+
+                    </div>
+                    <div class="menu-block">
+
+                    </div>
+                    <div class="menu-block">
+
+                    </div>
+                </div> -->
             </button>
             <!-- <img src="./images/icons/icons8-menu-rounded-ios-16-filled-96.png" alt="Menu icon" id="menu-icon"> -->
 
@@ -29,7 +43,7 @@
         </div>
 
     </div>
-    
+
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">About</a>
@@ -38,25 +52,37 @@
         <a href="#">Contact</a>
     </div>
 
-    
+
+    <div class="intro" id="big-name">
+        <div class="intro-side" id="name-left">
+            <span class = "intro-name">Jacob</span>
+        </div>
+        <!-- <div class="intro-mid"> -->
+            <img src="./images/jacob1.png" alt="A picture of Jacob Rivera" id="selfie">
+        <!-- </div> -->
+        <div class = "intro-side" id="name-right">
+            <span class = "intro-name">Rivera</span>
+        </div>
 
 
-    <div class="intro" id="name">
+    </div>
+
+    <!-- <div class="intr" id="name">
         <div class="intro-left">
             <h1>Hi, I'm Jacob!</h1>
             <h3>and thanks for visiting! Here you will find all about me! I have a little about myself down below, but you can find my resume, personal projects, and other stuff at the top of the page! </h3>
         </div>
 
         <div class = "intro-right">
-            <img src="./images/jacob1.png" alt="A picture of Jacob Rivera" id="selfie">
+            <img src="./images/jacob1.png" alt="A picture of Jacob Rivera" id="selfi">
 
 
         </div>
 
 
-    </div>
+    </div> -->
 
-    <div class="about_me">
+    <div class="about_me" id="about_me">
         <h1>a little about me</h1>
         <div class = "education">
             <h2>Education</h2>
@@ -91,7 +117,7 @@
 
 
 
-
+<!-- 
     <div class="info-section">
 
         <div class="info-header">
@@ -121,8 +147,8 @@
                     this is some subtext under an illustration or image
                 </div>            </div>
         </div>
-    </div>
-
+    </div> -->
+<!-- 
     <div class="quote-section">
 
         <div class="quote">
@@ -156,7 +182,7 @@
 
     <div class="footer">
         Copyright © The Odin Project 2021
-    </div>
+    </div> -->
 
   </body>
 </html>
