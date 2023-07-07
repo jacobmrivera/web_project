@@ -6,7 +6,8 @@ body {
 
     color:white;
     font-family: 'Red Hat Display', sans-serif;
-
+    background: rgb(218,211,194);
+    /* linear-gradient(#A8D0E6 100vh, #A8D0E6, #24305E 100% ); */
 }
 
 
@@ -18,8 +19,9 @@ body {
     display: flex;
     justify-content:space-between;
     margin-bottom: 30px;
-    color: white;
-    background-color: 	#A8D0E6;
+    color: #374785;
+    height: 10vh;
+    /* background-color: 	#A8D0E6; */
     /* width:75%; */
     /* padding-bottom: 100px; */
     /* gap: 30px; */
@@ -30,7 +32,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 1%;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .header-right {
@@ -54,6 +56,10 @@ h2 {
     font-size: 300%;
 }
 
+h3{
+    font-size: 180%;
+}
+
 
 .intro {
     padding: 5% 10% 10% 10%;
@@ -65,7 +71,7 @@ h2 {
     margin-right: 10%;
     margin-bottom: 15%; */
     /* background-color: white; */
-    margin-bottom: 25%;
+    margin-bottom: 10%;
 }
 
 #big-name {
@@ -128,18 +134,27 @@ img {
 
 
 #menu-button {
-    background-color: white;
-    
-    background-color: white; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    /* border: none;
+    /* color: black; */
+    /* padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+
+    width: 5vw;
+    height: auto;
+
 }
+
+
+#menu-button img {
+    width: 100%;
+    height: auto;
+  }
 
 
 
@@ -210,16 +225,24 @@ img {
     /* width: 50vw; */
     /* background-color: #374785; */
     /* display: flex; */
-    background: linear-gradient(#A8D0E6, 20%, #374785 100% );
+    /* background: linear-gradient(#A8D0E6, 20%, #374785 100% ); */
     /* background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
     /* background-color: linear-gradient(#10416b, black);  */
-    /* color: black; */
+    color: black;
     /* background-color: white; */
     /* margin: 0px 0px 0px 0px; */
     padding: 5% 5% 5% 5%;
 
 }
 
+.about_me h3 {
+    margin: 0%;
+}
+
+.one-tab{
+    display: inline-block;
+    margin-left: 4em;
+}
 
 
 
